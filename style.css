@@ -1,0 +1,144 @@
+<!-- styles.css -->
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffaf5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #a36c5f;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 1rem;
+}
+
+.hero-img {
+  flex: 1;
+  padding: 1rem;
+}
+
+.hero-img img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+footer {
+  background: #f3eae5;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+.product-list p {
+  background: #fff;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-left: 5px solid #a36c5f;
+  border-radius: 5px;
+}
+
+.newsletter {
+  background: #fef2ec;
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.newsletter form {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.newsletter input[type="email"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 60%;
+  max-width: 300px;
+}
+
+.newsletter button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #a36c5f;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: #8e5c52;
+}
+
+.testimonial {
+  background-color: #fff3ed;
+  padding: 2rem;
+  margin: 2rem auto;
+  text-align: center;
+  font-style: italic;
+  border-radius: 8px;
+  max-width: 700px;
+}
+
+.testimonial cite {
+  display: block;
+  margin-top: 1rem;
+  font-style: normal;
+  font-weight: bold;
+  color: #a36c5f;
+}
